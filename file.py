@@ -19,5 +19,7 @@ for i in range(len(os.listdir())):
   if os.listdir()[i] in watch_for:
     append_found.append(os.listdir()[i])
 
+print('Found %s of %s files'.format(str(len(append_found)),str(len(watch_for)))
+
 adapt = adapt()
 adapt.gather_found_files(files=append_found)
