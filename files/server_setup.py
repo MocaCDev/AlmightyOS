@@ -15,3 +15,5 @@ class adapt:
     with open('changed_paths.json','w') as file:
       file.write(json.dumps(self.found_files,indent=2,sort_keys=False))
       file.close()
+
+  def __start_connection__(self,connection_id,**connection_ports):pass
