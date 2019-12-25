@@ -10,7 +10,8 @@ class adapt:
     "we want to replace / with ."
     for i in range(len(self.found_files)):
       self.found_files[i] = os.path.abspath(self.found_files[i]).replace('/','.')
-
+    
+    os.chdir(os.getcwd())
     with open('changed_paths.json','w') as file:
       file.write(json.dumps(self.found_files,indent=2,sort_keys=False))
       file.close()
