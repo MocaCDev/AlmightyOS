@@ -3,7 +3,6 @@ from files.server_setup import adapt
 
 main_dir = os.environ.get('HOME')
 os.chdir(main_dir)
-print(os.listdir())
 
 watch_for = [
   'extras',
