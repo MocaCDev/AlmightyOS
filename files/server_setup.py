@@ -1,5 +1,8 @@
 import os, json
 
+"will be used later in AlmightyOS"
+class Client_Side_Server:pass
+
 class adapt:
 
   def gather_found_files(self,**found_files):
