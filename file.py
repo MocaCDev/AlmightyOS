@@ -1,8 +1,8 @@
 import os
 from files.server_setup import adapt
 
-main_dir = os.getcwd()
-os.chdir(main_dir.replace('/AlmightyOS',''))
+main_dir = os.environ.get('HOME')
+os.chdir(main_dir)
 
 watch_for = [
   'extras',
