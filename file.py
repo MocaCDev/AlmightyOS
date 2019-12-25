@@ -2,6 +2,7 @@ import os
 from files.server_setup import adapt
 
 main_dir = os.getcwd()
+print(main_dir)
 os.chdir(main_dir)
 
 watch_for = [
