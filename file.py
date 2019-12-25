@@ -2,8 +2,8 @@ import os
 from files.server_setup import adapt
 
 main_dir = os.environ.get('HOME')
-print(main_dir)
 os.chdir(main_dir)
+print(os.listdir())
 
 watch_for = [
   'extras',
