@@ -23,3 +23,6 @@ print('Found {} of {} files'.format(str(len(append_found)),str(len(watch_for))))
 
 adapt = adapt()
 adapt.gather_found_files(files=append_found)
+
+"this is needed to startup the client side of AlmightyOS, or the operator that makes the application possible"
+def Client():pass
